@@ -1,0 +1,14 @@
+{
+  "Title": "Autoloader",
+  "Type": "library",
+  "Org": "brax",
+  "Ident": "autoloader",
+  "Schema": 1,
+  "IncludeSourceFiles": true,
+  "Resources": null,
+  "PackageReferences": [],
+  "EditorReferences": null,
+  "Metadata": {
+    "CsProjName": ""
+  }
+}
