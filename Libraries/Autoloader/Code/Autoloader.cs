@@ -30,6 +30,8 @@ public sealed class Autoloader : GameObjectSystem
 
 	public Autoloader( Scene scene ) : base( scene )
 	{
+		if ( Scene.IsEditor ) return;
+		
 		Log.Trace( $"Autoloader initialized on scene {scene.Name}" );
 
 		var autoloadTypes = TypeLibrary.GetTypesWithAttribute<AutoloadAttribute>().ToList();
